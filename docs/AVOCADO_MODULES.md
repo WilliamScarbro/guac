@@ -23,7 +23,7 @@ Some parameters are automatically included in the configuration for all Avocado 
 
 ## Modules
 
-#### SetUp:
+### SetUp:
 
 **Description**
 
@@ -38,7 +38,7 @@ Some parameters are automatically included in the configuration for all Avocado 
 * TAR_CONTENTS: [String]
 * LIB_CONTENTS: [String]
  
-#### MakeTargets:
+### MakeTargets:
 **Description**
 
 * Checks ```make clean``` removes MAKE_TARGETS
@@ -49,7 +49,7 @@ Some parameters are automatically included in the configuration for all Avocado 
 * \<env\>
 * MAKE_TARGETS: [String]
 
-#### Collect:
+### Collect:
 **Description**
 
 * Executes program specified by EXEC with argument(s) in ARG
@@ -79,7 +79,7 @@ Some parameters are automatically included in the configuration for all Avocado 
 
 - THREADS: Int
 
-#### CompareResult:
+### CompareResult:
 
 **Description**
 
@@ -97,7 +97,7 @@ Some parameters are automatically included in the configuration for all Avocado 
 
 - RESULT_RE: RegEx
 
-#### CompareTime:
+### CompareTime:
 
 **Description**
 
@@ -113,7 +113,7 @@ Some parameters are automatically included in the configuration for all Avocado 
 - TIME_RE: RegEx
 - TIME_EPSILON: float
 
-#### CompareSpeedup:
+### CompareSpeedup:
 
 **Description**
 
